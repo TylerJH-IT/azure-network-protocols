@@ -1,5 +1,11 @@
 # azure-network-protocols
 
+So I can find this easier
+<p>
+<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+
 <p align="center">
 <img src="https://i.imgur.com/Ua7udoS.png" alt="Traffic Examination"/>
 </p>
@@ -25,35 +31,59 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 - Windows 10 (21H2)
 - Ubuntu Server 20.04
 
-<h2>High-Level Steps</h2>
+<h1>Part 1: Set up Azure Resources</h1>
 
-- Step 1
-- Step 2
-- Step 3
-- Step 4
+<h3>Step 1: Create a Resource Group and Virtual Network</h3>
 
-<h2>Actions and Observations</h2>
+- Log into Azure Portal and create a Resource group.
 
 <p>
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
-<br />
+
+- Create a Virtual Network (VNet)
 
 <p>
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
-<br />
+
+- Now create two virtual machines
+
+- Windows 10 VM
+  - Use the resource group and VNet created above.
+  - Allow RDP (port 3389) during setup
+  - Note the Private Ip address
 
 <p>
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+
+- Ubuntu Linux VM
+  - Same Resource Group and VNet as the Windows VM
+  - Allow SSH (port 22)
+  - Note the private IP address
+
+<p>
+<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
-<br />
+<p>
+
+<h3>Step 2: Monitor Network Traffic with Wireshark</h3>
+
+- Wireshark is a free and powerful tool used to analyze packets and protocols on a network. It helps you see what's happening behind the scenes.
+
+  - Install Wireshark
+  - Connect to the Windows 10 VM via Remote Desktop.
+  - Download and install Wireshark. https://www.wireshark.org
+  - Launch Wireshark and start capturing on the Ethernet adapter
+
+<p>
+<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+
+- ICMP Traffic (ping)
+
