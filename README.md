@@ -29,14 +29,12 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 
 - Log into Azure Portal and create a Resource group.
 
-- Create a Resource Group and Virtual Network
+- Create a Resource Group and Virtual machine (VNet)
 
 <p>
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-
-- Create a Virtual Network (VNet)
 
 <p>
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
