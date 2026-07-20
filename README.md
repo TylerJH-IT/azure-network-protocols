@@ -38,13 +38,15 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 </p>
 <p>
 
-- Now create two virtual machines
+<h3>Step 2: Creating two virtual machines </h3>
 
 - Windows 10 VM
   - Use the resource group and VNet created above.
   - Allow RDP (port 3389) during setup
   - Note the Private Ip address
 
+<h3>                    </h3>
+
 <p>
 <img src="https://i.imgur.com/DJmEXEB.png" height="100%" width="100%" alt="Disk Sanitization Steps"/>
 </p>
@@ -57,12 +59,16 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 <img src="https://i.imgur.com/DJmEXEB.png" height="100%" width="100%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
+
+<h3>Step 3: Creating the second Virutal Machine</h3>
 
 - Ubuntu Linux VM
   - Same Resource Group and VNet as the Windows VM
   - Allow SSH (port 22)
   - Note the private IP address
 
+<h3>                                      </h3>
+
 <p>
 <img src="https://i.imgur.com/DJmEXEB.png" height="100%" width="100%" alt="Disk Sanitization Steps"/>
 </p>
@@ -76,7 +82,9 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 </p>
 <p>
 
-<h3>Step 2: Monitor Network Traffic with Wireshark</h3>
+<h2> Using Wireshark</h2>
+
+<h3>Step 4: Monitor Network Traffic with Wireshark</h3>
 
 - Wireshark is a free and powerful tool used to analyze packets and protocols on a network. It helps you see what's happening behind the scenes.
 
@@ -85,6 +93,8 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
   - Download and install Wireshark. https://www.wireshark.org
   - Launch Wireshark and start capturing on the Ethernet adapter
 
+<h3>                                              </h3>
+
 <p>
 <img src="https://i.imgur.com/DJmEXEB.png" height="100%" width="100%" alt="Disk Sanitization Steps"/>
 </p>
@@ -97,27 +107,35 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 <img src="https://i.imgur.com/DJmEXEB.png" height="100%" width="100%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
+
+<h3> Step 5: ICMP Traffic part 1</h3>
 
 - ICMP Traffic (ping)
 ICMP is the protocol used when you ping another device.
 
 - Filter ICMP in Wireshark
   - Open Wireshark and set the filter to show only ICMP traffic on the search bar.
-
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="100%" width="100%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-
 - Ping Ubuntu VM
   - Find the private IP address of your Ubuntu VM from your Azure.
   - Open Powershell or Command Line on the Windows 10 VM
   - Ping this Private IP address from the Windows 10 VM and watch the traffic in Wireshark.
 
+<h3>                          </h3>
+
 <p>
 <img src="https://i.imgur.com/DJmEXEB.png" height="100%" width="100%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
+<p>
+<img src="https://i.imgur.com/DJmEXEB.png" height="100%" width="100%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+<p>
+<img src="https://i.imgur.com/DJmEXEB.png" height="100%" width="100%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+
+<h3> Step 6: ICMP Traffic part 2</h3>
 
 - Ping a Public Website
   - In the Windows 10 VM, use the command line or PowerShell to ping a public website. (e.g. - ping 10.0.0.5)
@@ -127,6 +145,16 @@ ICMP is the protocol used when you ping another device.
 <img src="https://i.imgur.com/DJmEXEB.png" height="100%" width="100%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
+<p>
+<img src="https://i.imgur.com/DJmEXEB.png" height="100%" width="100%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+<p>
+<img src="https://i.imgur.com/DJmEXEB.png" height="100%" width="100%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+
+<h3> Step 7: ICMP Traffic part 3</h3>
 
 - Continous Ping
   - Start a continuous ping from Windows 10 VM to Ubuntu VM.
@@ -137,7 +165,7 @@ ICMP is the protocol used when you ping another device.
 </p>
 <p>
 
-- Manage ICMP with NSG
+<h3> Manage ICMP with NSG </h3>
 
   - Go to the Ubuntu VM > Networking > NSG
 
@@ -163,7 +191,7 @@ ICMP is the protocol used when you ping another device.
 </p>
 <p>
 
-- SSH Traffic
+<h3> SSH Traffic </h3>
 
   - Filter for SSH in Wireshark
     - In Wireshark, set the filter to show only SSH traffic. (e.g. tcp.port == 22) on the search bar.
@@ -184,8 +212,12 @@ ICMP is the protocol used when you ping another device.
 <img src="https://i.imgur.com/DJmEXEB.png" height="100%" width="100%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
+<p>
+<img src="https://i.imgur.com/DJmEXEB.png" height="100%" width="100%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
 
-- DHCP Traffic
+<h3> DHCP Traffic </h3>
 
   - Filter for DHCP Traffic.
     - In Wireshark, filter to show only DHCP traffic on the search bar.
@@ -204,7 +236,7 @@ ICMP is the protocol used when you ping another device.
 </p>
 <p>
 
-- DNS Traffic
+<h3> DNS Traffic </h3>
 
   - Filter for DNS Traffic
     - In Wireshark, filter to show only DNS traffic type "dns" on the search bar.
@@ -227,7 +259,7 @@ ICMP is the protocol used when you ping another device.
 </p>
 <p>
 
-- RDP Traffic
+<h3> RDP Traffic </h3>
 
   - Filter for RDP Traffic
     - In Wireshark, set the filter to show RDP traffic (tcp.port == 3389) on the search bar.
