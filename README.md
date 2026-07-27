@@ -88,9 +88,9 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 
 - Wireshark is a free and powerful tool used to analyze packets and protocols on a network. It helps you see what's happening behind the scenes.
 
-  - Install Wireshark
   - Connect to the Windows 10 VM via Remote Desktop.
   - Download and install Wireshark. https://www.wireshark.org
+  - Just click through next until you reach install and then click install. Same for Npcap,
   - Launch Wireshark and start capturing on the Ethernet adapter
 
 <h3>                                              </h3>
@@ -118,7 +118,7 @@ ICMP is the protocol used when you ping another device.
 - Ping Ubuntu VM
   - Find the private IP address of your Ubuntu VM from your Azure.
   - Open Powershell or Command Line on the Windows 10 VM
-  - Ping this Private IP address from the Windows 10 VM and watch the traffic in Wireshark.
+  - Ping the Private IP address from the Ubuntu VM and watch the traffic in Wireshark.
 
 <h3>                          </h3>
 
@@ -165,9 +165,9 @@ ICMP is the protocol used when you ping another device.
 </p>
 <p>
 
-<h3> Manage ICMP with NSG </h3>
+<h3>Step 8: Manage ICMP with NSG </h3>
 
-  - Go to the Ubuntu VM > Networking > NSG
+  - Go to the Ubuntu VM > Networking > Network Settings
 
   - Add a new Inbound Rule:
     - Protocol: ICMPv4
@@ -176,7 +176,7 @@ ICMP is the protocol used when you ping another device.
 
   - Return to the Windows VM and try pinging again. It should fail.
 
-  - Change the NSG rule to Allow ICMP and try again. It should succeed.
+  - Change the Network Settings rule to Allow ICMP and try again. It should succeed.
 
 <p>
 <img src="https://i.imgur.com/DJmEXEB.png" height="100%" width="100%" alt="Disk Sanitization Steps"/>
@@ -191,13 +191,14 @@ ICMP is the protocol used when you ping another device.
 </p>
 <p>
 
-<h3> SSH Traffic </h3>
+<h3>Step 9: SSH Traffic </h3>
 
   - Filter for SSH in Wireshark
     - In Wireshark, set the filter to show only SSH traffic. (e.g. tcp.port == 22) on the search bar.
 
   - SSH into Ubuntu VM
-    - From Windows 10 VM, use the Windows Terminal or Powershell and connect to the Ubuntu VM via SSH using its private IP. (e.g. - ssh username@Private IP Address) You'll have to type yes and then the password into it.
+    - From Windows 10 VM, use the Windows Terminal or Powershell and connect to the Ubuntu VM via SSH using its private IP. e.g. - ssh username@Private IP Address, you can find this in the connect panel.
+    - You'll have to type yes and then type the password into it.
     - The Password won't show up as you type it so make sure you carefully type it 1 to 1.
     - Type commands in the SSH session and observe the traffic in Wireshark. Use this link for commands cheats sheet (for a studay purpose) https://www.linuxtrainingacademy.com/linux-commands-cheat-sheet/
 
@@ -217,7 +218,7 @@ ICMP is the protocol used when you ping another device.
 </p>
 <p>
 
-<h3> DHCP Traffic </h3>
+<h3>Step 10: DHCP Traffic </h3>
 
   - Filter for DHCP Traffic.
     - In Wireshark, filter to show only DHCP traffic on the search bar.
@@ -236,7 +237,7 @@ ICMP is the protocol used when you ping another device.
 </p>
 <p>
 
-<h3> DNS Traffic </h3>
+<h3>Step 11: DNS Traffic </h3>
 
   - Filter for DNS Traffic
     - In Wireshark, filter to show only DNS traffic type "dns" on the search bar.
@@ -259,7 +260,7 @@ ICMP is the protocol used when you ping another device.
 </p>
 <p>
 
-<h3> RDP Traffic </h3>
+<h3>Step 12: RDP Traffic </h3>
 
   - Filter for RDP Traffic
     - In Wireshark, set the filter to show RDP traffic (tcp.port == 3389) on the search bar.
@@ -271,3 +272,7 @@ ICMP is the protocol used when you ping another device.
 <img src="https://i.imgur.com/DJmEXEB.png" height="100%" width="100%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
+
+<h3> Step 13: Finishing with our tools</h3>
+
+  - Once your finished with this lab, make sure to delete your Virtual Machines and resource group so you can save your funds. You can find my instructions on it in Ticket Lifecycles. (https://github.com/TylerJH-IT/ticket-lifecycle)
