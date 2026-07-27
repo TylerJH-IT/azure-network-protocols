@@ -134,6 +134,10 @@ ICMP is the protocol used when you ping another device.
 <img src="https://i.imgur.com/rtk9YpS.png" height="100%" width="100%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
+<p>
+<img src="https://i.imgur.com/er4UAR2.png" height="100%" width="100%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
 
 <h3> Step 6: ICMP Traffic part 2</h3>
 
@@ -142,9 +146,10 @@ ICMP is the protocol used when you ping another device.
   - Observe the traffic in Wireshark.
 
 <p>
-<img src="https://i.imgur.com/er4UAR2.png" height="100%" width="100%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/5fcAfMd.png" height="100%" width="100%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
+
 
 <h3> Step 7: ICMP Traffic part 3</h3>
 
@@ -153,9 +158,10 @@ ICMP is the protocol used when you ping another device.
   - Stop the ping with CTRL + C.
 
 <p>
-<img src="https://i.imgur.com/5fcAfMd.png" height="100%" width="100%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/2EFchsV.png" height="100%" width="100%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
+
 
 <h3>Step 8: Manage ICMP with NSG </h3>
 
@@ -170,10 +176,6 @@ ICMP is the protocol used when you ping another device.
 
   - Change the Network Settings rule to Allow ICMP and try again. It should succeed.
 
-<p>
-<img src="https://i.imgur.com/2EFchsV.png" height="100%" width="100%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
 <p>
 <img src="https://i.imgur.com/SQEzRPo.png" height="100%" width="100%" alt="Disk Sanitization Steps"/>
 </p>
