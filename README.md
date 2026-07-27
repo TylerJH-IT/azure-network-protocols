@@ -59,6 +59,10 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 <img src="https://i.imgur.com/wdvu1yh.png" height="100%" width="100%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
+<p>
+<img src="https://i.imgur.com/tq0VIey.png" height="100%" width="100%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
 
 <h3>Step 3: Creating the second Virutal Machine</h3>
 
@@ -70,15 +74,15 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 <h3>                                      </h3>
 
 <p>
-<img src="https://i.imgur.com/tq0VIey.png" height="100%" width="100%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-<p>
 <img src="https://i.imgur.com/IZVUB18.png" height="100%" width="100%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 <p>
 <img src="https://i.imgur.com/GVYXNV9.png" height="100%" width="100%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+<p>
+<img src="https://i.imgur.com/awZV6fm.png" height="100%" width="100%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 
@@ -96,15 +100,15 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 <h3>                                              </h3>
 
 <p>
-<img src="https://i.imgur.com/awZV6fm.png" height="100%" width="100%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-<p>
 <img src="https://i.imgur.com/bIlZXin.png" height="100%" width="100%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 <p>
 <img src="https://i.imgur.com/5U5TUDS.png" height="100%" width="100%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+<p>
+<img src="https://i.imgur.com/iSWqYnb.png" height="100%" width="100%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 
@@ -122,10 +126,6 @@ ICMP is the protocol used when you ping another device.
 
 <h3>                          </h3>
 
-<p>
-<img src="https://i.imgur.com/iSWqYnb.png" height="100%" width="100%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
 <p>
 <img src="https://i.imgur.com/QSYj2m0.png" height="100%" width="100%" alt="Disk Sanitization Steps"/>
 </p>
