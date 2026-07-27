@@ -145,14 +145,6 @@ ICMP is the protocol used when you ping another device.
 <img src="https://i.imgur.com/DJmEXEB.png" height="100%" width="100%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="100%" width="100%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="100%" width="100%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
 
 <h3> Step 7: ICMP Traffic part 3</h3>
 
@@ -190,6 +182,10 @@ ICMP is the protocol used when you ping another device.
 <img src="https://i.imgur.com/DJmEXEB.png" height="100%" width="100%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
+<p>
+<img src="https://i.imgur.com/DJmEXEB.png" height="100%" width="100%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
 
 <h3>Step 9: SSH Traffic </h3>
 
@@ -205,6 +201,10 @@ ICMP is the protocol used when you ping another device.
     - Exit the SSH Session.
       - Type exit and press enter to close the SSH connection.
 
+<p>
+<img src="https://i.imgur.com/DJmEXEB.png" height="100%" width="100%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
 <p>
 <img src="https://i.imgur.com/DJmEXEB.png" height="100%" width="100%" alt="Disk Sanitization Steps"/>
 </p>
@@ -255,10 +255,6 @@ ICMP is the protocol used when you ping another device.
 <img src="https://i.imgur.com/DJmEXEB.png" height="100%" width="100%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="100%" width="100%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
 
 <h3>Step 12: RDP Traffic </h3>
 
@@ -268,6 +264,10 @@ ICMP is the protocol used when you ping another device.
   - Observe RDP Traffic
     - Note the constant stream of traffic. This happens because RDP continuously transmits a live stream between computers.
 
+<p>
+<img src="https://i.imgur.com/DJmEXEB.png" height="100%" width="100%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
 <p>
 <img src="https://i.imgur.com/DJmEXEB.png" height="100%" width="100%" alt="Disk Sanitization Steps"/>
 </p>
