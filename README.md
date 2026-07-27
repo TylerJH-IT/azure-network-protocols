@@ -26,15 +26,15 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 - Create a Resource Group and Virtual Network (VNet)
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="100%" width="100%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/FhAkz84.png" height="100%" width="100%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="100%" width="100%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/gwmYmH5.png" height="100%" width="100%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="100%" width="100%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/sTUk1cr.png" height="100%" width="100%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 
@@ -48,15 +48,15 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 <h3>                    </h3>
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="100%" width="100%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/KgVIPF9.png" height="100%" width="100%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="100%" width="100%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/tSaT9eO.png" height="100%" width="100%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="100%" width="100%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/wdvu1yh.png" height="100%" width="100%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 
@@ -70,15 +70,15 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 <h3>                                      </h3>
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="100%" width="100%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/tq0VIey.png" height="100%" width="100%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="100%" width="100%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/IZVUB18.png" height="100%" width="100%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="100%" width="100%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/GVYXNV9.png" height="100%" width="100%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 
@@ -96,15 +96,15 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 <h3>                                              </h3>
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="100%" width="100%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/awZV6fm.png" height="100%" width="100%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="100%" width="100%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/bIlZXin.png" height="100%" width="100%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="100%" width="100%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/5U5TUDS.png" height="100%" width="100%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 
@@ -123,15 +123,15 @@ ICMP is the protocol used when you ping another device.
 <h3>                          </h3>
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="100%" width="100%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/iSWqYnb.png" height="100%" width="100%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="100%" width="100%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/QSYj2m0.png" height="100%" width="100%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="100%" width="100%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/rtk9YpS.png" height="100%" width="100%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 
@@ -142,7 +142,7 @@ ICMP is the protocol used when you ping another device.
   - Observe the traffic in Wireshark.
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="100%" width="100%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/er4UAR2.png" height="100%" width="100%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 
@@ -153,7 +153,7 @@ ICMP is the protocol used when you ping another device.
   - Stop the ping with CTRL + C.
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="100%" width="100%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/5fcAfMd.png" height="100%" width="100%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 
@@ -171,19 +171,19 @@ ICMP is the protocol used when you ping another device.
   - Change the Network Settings rule to Allow ICMP and try again. It should succeed.
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="100%" width="100%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/2EFchsV.png" height="100%" width="100%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="100%" width="100%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/SQEzRPo.png" height="100%" width="100%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="100%" width="100%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/D9A8il3.png" height="100%" width="100%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="100%" width="100%" alt="Disk Sanitization Steps"/>
+<img src="" height="100%" width="100%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 
